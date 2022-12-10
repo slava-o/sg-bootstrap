@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+    node:
+        container_name: bootstrap-node
+        image: node:14.19
+        working_dir: /app
+        restart: always
+        environment:
+            NODE_ENV: 'development'
+        volumes:
+            - ./:/app
+        ports:
+            - '127.0.0.1:3000:3000'
+            - '127.0.0.1:3001:3001'
+        command: bash -c "npm install && npm run lib && npm run scss && npm run html && npm run watch"

@@ -1,0 +1,16 @@
+@import "variables";
+
+// весь набор компонент - 231KB
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// только гриды с утилитами - 73KB
+//@import "../../node_modules/bootstrap/scss/bootstrap-grid";
+
+// нормализация и базовые установки для стандартных тегов - 6KB
+//@import "../../node_modules/bootstrap/scss/bootstrap-reboot";
+
+// утилиты - 74KB
+//@import "../../node_modules/bootstrap/scss/bootstrap-utilities";
+
+// кастомный импорт только гриды без утилит - 18KB
+//@import "custom";
