@@ -1,0 +1,64 @@
+// colors
+$primary:    #5C43E3 !default;
+$secondary:  rgba(115, 87, 195, 0.08) !default;
+$danger:     #FF3B30 !default;
+$success:    #34C759 !default;
+$warning:    #FF9500 !default;
+$info:       #ECF0F9 !default;
+
+$white:    #fff !default;
+$black:    #181A22  !default;
+
+$primary-gradient: linear-gradient(90.11deg, #5C43E3 -1.93%, #751FEB 99.9%), linear-gradient(90.63deg, #8373F6 2.48%, #7E4CCC 98.23%), linear-gradient(90deg, #5C258D 0%, #4389A2 100%);
+
+
+// Options
+$enable-rfs:                  true !default;
+$enable-negative-margins:     true !default;
+
+
+$spacer: 1rem !default;
+
+//container
+$grid-breakpoints: (
+  xs: 0,
+  sm: 425px,
+  md: 768px,
+  lg: 1380px,
+  xl: 1700px,
+) !default;
+
+$container-max-widths: (
+  sm: 425px,
+  md: 768px,
+  lg: 1380px,
+  xl: 1700px,
+) !default;
+
+$grid-gutter-width: 1.5rem;
+$gutters: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+);
+
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+);
+
+
+// scss-docs-start btn-variables
+$btn-padding-y:               .5rem !default;
+$btn-padding-x:               1rem !default;
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius:           12px !default;
+$btn-border-radius-sm:        12px !default;
+$btn-border-radius-lg:        12px !default;

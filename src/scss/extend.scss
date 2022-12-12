@@ -1,0 +1,17 @@
+@import "variables";
+
+.btn{
+  transition: $transition-base;
+  &-primary {
+    background: $primary-gradient;
+
+    &:hover {
+      opacity: .7;
+    }
+
+    &.disabled {
+      opacity: .4;
+    }
+  }
+}
+
