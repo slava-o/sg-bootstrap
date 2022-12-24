@@ -2,15 +2,66 @@
 
 .btn{
   transition: $transition-base;
+
+  &-lg {
+
+  }
+
   &-primary {
     background: $primary-gradient;
 
     &:hover {
       opacity: .7;
     }
+  }
 
-    &.disabled {
-      opacity: .4;
+  &-secondary {
+    color: $primary;
+    border-color: transparent;
+
+    &:hover {
+      color: $white;
+      background: $secondary-gradient-hover;
+    }
+
+    &:disabled, &.disabled {
+      color: $primary;
+      border-color: transparent;
+    }
+  }
+
+  &-light {
+    color: $black;
+    border-color: transparent;
+
+    &:hover {
+      color: $black;
+      background: $light;
+      border-color: transparent;
+      opacity: .7;
+    }
+  }
+
+  &-outline-light {
+    color: $black;
+    border-color: $light;
+    background: transparent;
+
+    &:hover {
+      background: transparent;
+      opacity: .7;
+    }
+
+    &:disabled, &.disabled {
+      color: $black;
+    }
+  }
+
+  &-link {
+    text-decoration: none;
+
+    &:hover {
+      opacity: .7;
     }
   }
 }

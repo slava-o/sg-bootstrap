@@ -3,6 +3,8 @@ import './scss/style.scss';
 import * as Popper from "@popperjs/core"
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
+import '@fortawesome/fontawesome-free/css/all.min.css'
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
@@ -11,7 +13,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App name="лол" />
+    <App name="Storiesgain" />
   </React.StrictMode>
 );
 

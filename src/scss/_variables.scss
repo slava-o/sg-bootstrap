@@ -1,15 +1,17 @@
 // colors
 $primary:    #5C43E3 !default;
-$secondary:  rgba(115, 87, 195, 0.08) !default;
+$secondary:  rgba(92, 67, 227, 0.12) !default;
 $danger:     #FF3B30 !default;
 $success:    #34C759 !default;
 $warning:    #FF9500 !default;
 $info:       #ECF0F9 !default;
+$light:      #ECF0F9 !default;
 
 $white:    #fff !default;
 $black:    #181A22  !default;
 
 $primary-gradient: linear-gradient(90.11deg, #5C43E3 -1.93%, #751FEB 99.9%), linear-gradient(90.63deg, #8373F6 2.48%, #7E4CCC 98.23%), linear-gradient(90deg, #5C258D 0%, #4389A2 100%);
+$secondary-gradient-hover: linear-gradient(0deg, #5C43E3, #5C43E3), linear-gradient(0deg, #8373F6, #8373F6), #7357C3;
 
 
 // Options
@@ -56,9 +58,26 @@ $spacers: (
 
 
 // scss-docs-start btn-variables
-$btn-padding-y:               .5rem !default;
-$btn-padding-x:               1rem !default;
+$btn-padding-y:               11px !default;
+$btn-padding-x:               .9rem !default;
+$btn-font-size:               15px !default;
+$btn-line-height:             1rem !default;
+$btn-font-weight:             600 !default;
+
+$btn-padding-y-sm:            7px !default;
+$btn-padding-x-sm:            .5rem !default;
+$btn-font-size-sm:            14px !default;
+
+$btn-padding-y-lg:            19px !default;
+$btn-padding-x-lg:            1.5rem !default;
+$btn-font-size-lg:            15px !default;
+
+$btn-disabled-opacity:        .4 !default;
+$btn-link-color:              $black !default;
+$btn-link-hover-color:        $black !default;
+$btn-link-disabled-color:     $black !default;
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius:           12px !default;
-$btn-border-radius-sm:        12px !default;
-$btn-border-radius-lg:        12px !default;
+$btn-border-radius:           1rem !default;
+$btn-border-radius-sm:        .75rem !default;
+$btn-border-radius-lg:        .75rem !default;
+
