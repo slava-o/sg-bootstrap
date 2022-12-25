@@ -4,6 +4,10 @@ $color-mode-type: data;
 
 
 @include color-mode(dark) {
+  body {
+    background: $body-gradient-bg-dark;
+  }
+
   .btn {
     &-outline-light {
       color: $text-100-dark;
@@ -13,8 +17,17 @@ $color-mode-type: data;
       }
     }
   }
+
+  .card {
+    background-color: $card-900-dark;
+    border-color: $bg-600-dark;
+  }
 }
 
+
+body {
+  background: $body-gradient-bg;
+}
 
 .btn{
   transition: $transition-base;
