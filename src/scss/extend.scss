@@ -3,8 +3,8 @@
 .btn{
   transition: $transition-base;
 
-  &-lg {
-
+  &-sm {
+    line-height: 1.25rem;
   }
 
   &-primary {
@@ -62,6 +62,23 @@
 
     &:hover {
       opacity: .7;
+    }
+  }
+
+  &-warning {
+    color: $warning;
+    border-color: transparent;
+    background: rgba($warning, .08);
+
+    &:hover {
+      color: $white;
+      background: $warning;
+    }
+
+    &:disabled, &.disabled {
+      color: $warning;
+      border-color: transparent;
+      background: rgba($warning, .08);
     }
   }
 }

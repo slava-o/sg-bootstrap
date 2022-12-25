@@ -31,19 +31,19 @@ class App extends React.Component {
 
               <hr className={'my-3'}/>
 
-              <Button variant="light" size={"lg"}>Light</Button>{' '}
-              <Button variant="light" size={"lg"}><i className="fa-solid fa-bug"></i> Light icon</Button>{' '}
-              <Button variant="light" size={"lg"}>Light icon right <i className="fa-solid fa-headset"></i></Button>{' '}
+              <Button variant="light" size={"lg"}>Grey</Button>{' '}
+              <Button variant="light" size={"lg"}><i className="fa-solid fa-bug"></i> Grey icon</Button>{' '}
+              <Button variant="light" size={"lg"}>Grey icon right <i className="fa-solid fa-headset"></i></Button>{' '}
               <Button variant="light" size={"lg"}><i className="fa-solid fa-heart"></i></Button>{' '}
-              <Button variant="light" size={"lg"} disabled={true}><i className="fa-solid fa-dragon"></i> Light disabled</Button>{' '}
+              <Button variant="light" size={"lg"} disabled={true}><i className="fa-solid fa-dragon"></i> Grey disabled</Button>{' '}
 
               <hr className={'my-3'}/>
 
-              <Button variant="outline-light" size={"lg"}>Light</Button>{' '}
-              <Button variant="outline-light" size={"lg"}><i className="fa-solid fa-bug"></i> Light icon</Button>{' '}
-              <Button variant="outline-light" size={"lg"}>Light icon right <i className="fa-solid fa-headset"></i></Button>{' '}
+              <Button variant="outline-light" size={"lg"}>Outline</Button>{' '}
+              <Button variant="outline-light" size={"lg"}><i className="fa-solid fa-bug"></i> Outline icon</Button>{' '}
+              <Button variant="outline-light" size={"lg"}>Outline icon right <i className="fa-solid fa-headset"></i></Button>{' '}
               <Button variant="outline-light" size={"lg"}><i className="fa-solid fa-heart"></i></Button>{' '}
-              <Button variant="outline-light" size={"lg"} disabled={true}><i className="fa-solid fa-dragon"></i> Light disabled</Button>{' '}
+              <Button variant="outline-light" size={"lg"} disabled={true}><i className="fa-solid fa-dragon"></i> Outline disabled</Button>{' '}
 
               <hr className={'my-3'}/>
 
@@ -52,6 +52,23 @@ class App extends React.Component {
               <Button variant="link" size={"lg"}>Flat icon right <i className="fa-solid fa-headset"></i></Button>{' '}
               <Button variant="link" size={"lg"}><i className="fa-solid fa-heart"></i></Button>{' '}
               <Button variant="link" size={"lg"} disabled={true}><i className="fa-solid fa-dragon"></i> Flat disabled</Button>{' '}
+
+              <hr className={'my-3'}/>
+
+              <Button variant="warning" size={"lg"}>Warning</Button>{' '}
+              <Button variant="warning" size={"lg"}><i className="fa-solid fa-bug"></i> Warning icon</Button>{' '}
+              <Button variant="warning" size={"lg"}>Warning icon right <i className="fa-solid fa-headset"></i></Button>{' '}
+              <Button variant="warning" size={"lg"}><i className="fa-solid fa-heart"></i></Button>{' '}
+              <Button variant="warning" size={"lg"} disabled={true}><i className="fa-solid fa-dragon"></i> Warning disabled</Button>{' '}
+
+              <hr className={'my-3'}/>
+
+              <Button variant="primary" size={"lg"}><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="secondary" size={"lg"}><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="light" size={"lg"}><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="outline-light" size={"lg"}><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="link" size={"lg"}><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="warning" size={"lg"}><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
             </Col>
           </Row>
         </Container>
@@ -79,19 +96,19 @@ class App extends React.Component {
 
               <hr className={'my-3'}/>
 
-              <Button variant="light">Light</Button>{' '}
-              <Button variant="light"><i className="fa-solid fa-bug"></i> Light icon</Button>{' '}
-              <Button variant="light">Light icon right <i className="fa-solid fa-headset"></i></Button>{' '}
+              <Button variant="light">Grey</Button>{' '}
+              <Button variant="light"><i className="fa-solid fa-bug"></i> Grey icon</Button>{' '}
+              <Button variant="light">Grey icon right <i className="fa-solid fa-headset"></i></Button>{' '}
               <Button variant="light"><i className="fa-solid fa-heart"></i></Button>{' '}
-              <Button variant="light" disabled={true}><i className="fa-solid fa-dragon"></i> Light disabled</Button>{' '}
+              <Button variant="light" disabled={true}><i className="fa-solid fa-dragon"></i> Grey disabled</Button>{' '}
 
               <hr className={'my-3'}/>
 
-              <Button variant="outline-light">Light</Button>{' '}
-              <Button variant="outline-light"><i className="fa-solid fa-bug"></i> Light icon</Button>{' '}
-              <Button variant="outline-light">Light icon right <i className="fa-solid fa-headset"></i></Button>{' '}
+              <Button variant="outline-light">Outline</Button>{' '}
+              <Button variant="outline-light"><i className="fa-solid fa-bug"></i> Outline icon</Button>{' '}
+              <Button variant="outline-light">Outline icon right <i className="fa-solid fa-headset"></i></Button>{' '}
               <Button variant="outline-light"><i className="fa-solid fa-heart"></i></Button>{' '}
-              <Button variant="outline-light" disabled={true}><i className="fa-solid fa-dragon"></i> Light disabled</Button>{' '}
+              <Button variant="outline-light" disabled={true}><i className="fa-solid fa-dragon"></i> Outline disabled</Button>{' '}
 
               <hr className={'my-3'}/>
 
@@ -100,6 +117,23 @@ class App extends React.Component {
               <Button variant="link">Flat icon right <i className="fa-solid fa-headset"></i></Button>{' '}
               <Button variant="link"><i className="fa-solid fa-heart"></i></Button>{' '}
               <Button variant="link" disabled={true}><i className="fa-solid fa-dragon"></i> Flat disabled</Button>{' '}
+
+              <hr className={'my-3'}/>
+
+              <Button variant="warning">Warning</Button>{' '}
+              <Button variant="warning"><i className="fa-solid fa-bug"></i> Warning icon</Button>{' '}
+              <Button variant="warning">Warning icon right <i className="fa-solid fa-headset"></i></Button>{' '}
+              <Button variant="warning"><i className="fa-solid fa-heart"></i></Button>{' '}
+              <Button variant="warning" disabled={true}><i className="fa-solid fa-dragon"></i> Warning disabled</Button>{' '}
+
+              <hr className={'my-3'}/>
+
+              <Button variant="primary"><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="secondary"><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="light"><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="outline-light"><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="link"><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="warning"><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
             </Col>
           </Row>
         </Container>
@@ -127,19 +161,19 @@ class App extends React.Component {
 
               <hr className={'my-3'}/>
 
-              <Button variant="light" size={"sm"}>Light</Button>{' '}
-              <Button variant="light" size={"sm"}><i className="fa-solid fa-bug"></i> Light icon</Button>{' '}
-              <Button variant="light" size={"sm"}>Light icon right <i className="fa-solid fa-headset"></i></Button>{' '}
+              <Button variant="light" size={"sm"}>Grey</Button>{' '}
+              <Button variant="light" size={"sm"}><i className="fa-solid fa-bug"></i> Grey icon</Button>{' '}
+              <Button variant="light" size={"sm"}>Grey icon right <i className="fa-solid fa-headset"></i></Button>{' '}
               <Button variant="light" size={"sm"}><i className="fa-solid fa-heart"></i></Button>{' '}
-              <Button variant="light" size={"sm"} disabled={true}><i className="fa-solid fa-dragon"></i> Light disabled</Button>{' '}
+              <Button variant="light" size={"sm"} disabled={true}><i className="fa-solid fa-dragon"></i> Grey disabled</Button>{' '}
 
               <hr className={'my-3'}/>
 
-              <Button variant="outline-light" size={"sm"}>Light</Button>{' '}
-              <Button variant="outline-light" size={"sm"}><i className="fa-solid fa-bug"></i> Light icon</Button>{' '}
-              <Button variant="outline-light" size={"sm"}>Light icon right <i className="fa-solid fa-headset"></i></Button>{' '}
+              <Button variant="outline-light" size={"sm"}>Outline</Button>{' '}
+              <Button variant="outline-light" size={"sm"}><i className="fa-solid fa-bug"></i> Outline icon</Button>{' '}
+              <Button variant="outline-light" size={"sm"}>Outline icon right <i className="fa-solid fa-headset"></i></Button>{' '}
               <Button variant="outline-light" size={"sm"}><i className="fa-solid fa-heart"></i></Button>{' '}
-              <Button variant="outline-light" size={"sm"} disabled={true}><i className="fa-solid fa-dragon"></i> Light disabled</Button>{' '}
+              <Button variant="outline-light" size={"sm"} disabled={true}><i className="fa-solid fa-dragon"></i> Outline disabled</Button>{' '}
 
               <hr className={'my-3'}/>
 
@@ -148,6 +182,23 @@ class App extends React.Component {
               <Button variant="link" size={"sm"}>Flat icon right <i className="fa-solid fa-headset"></i></Button>{' '}
               <Button variant="link" size={"sm"}><i className="fa-solid fa-heart"></i></Button>{' '}
               <Button variant="link" size={"sm"} disabled={true}><i className="fa-solid fa-dragon"></i> Flat disabled</Button>{' '}
+
+              <hr className={'my-3'}/>
+
+              <Button variant="warning" size={"sm"}>Warning</Button>{' '}
+              <Button variant="warning" size={"sm"}><i className="fa-solid fa-bug"></i> Warning icon</Button>{' '}
+              <Button variant="warning" size={"sm"}>Warning icon right <i className="fa-solid fa-headset"></i></Button>{' '}
+              <Button variant="warning" size={"sm"}><i className="fa-solid fa-heart"></i></Button>{' '}
+              <Button variant="warning" size={"sm"} disabled={true}><i className="fa-solid fa-dragon"></i> Warning disabled</Button>{' '}
+
+              <hr className={'my-3'}/>
+
+              <Button variant="primary" size={"sm"}><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="secondary" size={"sm"}><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="light" size={"sm"}><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="outline-light" size={"sm"}><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="link" size={"sm"}><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
+              <Button variant="warning" size={"sm"}><i className="fa-solid fa-heart"></i><br/>Label</Button>{' '}
             </Col>
           </Row>
         </Container>
@@ -163,7 +214,7 @@ class App extends React.Component {
               <Button variant="warning">Warning</Button>{' '}
               <Button variant="danger">Danger</Button>{' '}
               <Button variant="info">Info</Button>{' '}
-              <Button variant="light">Light</Button>{' '}
+              <Button variant="light">Grey</Button>{' '}
               <Button variant="dark">Dark</Button>
               <Button variant="link">Link</Button>
               <br/><br/><br/>

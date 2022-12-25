@@ -4,7 +4,7 @@ $secondary:  rgba(92, 67, 227, 0.12) !default;
 $danger:     #FF3B30 !default;
 $success:    #34C759 !default;
 $warning:    #FF9500 !default;
-$info:       #ECF0F9 !default;
+$info:       #6C86AD !default;
 $light:      #ECF0F9 !default;
 
 $white:    #fff !default;
@@ -58,23 +58,23 @@ $spacers: (
 
 
 // scss-docs-start btn-variables
-$btn-padding-y:               11px !default;
+$btn-padding-y:               7px !default;
 $btn-padding-x:               .9rem !default;
 $btn-font-size:               15px !default;
-$btn-line-height:             1rem !default;
+$btn-line-height:             1.5rem !default;
 $btn-font-weight:             600 !default;
 
-$btn-padding-y-sm:            7px !default;
+$btn-padding-y-sm:            5px !default;
 $btn-padding-x-sm:            .5rem !default;
 $btn-font-size-sm:            14px !default;
 
-$btn-padding-y-lg:            19px !default;
+$btn-padding-y-lg:            15px !default;
 $btn-padding-x-lg:            1.5rem !default;
 $btn-font-size-lg:            15px !default;
 
 $btn-disabled-opacity:        .4 !default;
-$btn-link-color:              $black !default;
-$btn-link-hover-color:        $black !default;
+$btn-link-color:              $info !default;
+$btn-link-hover-color:        $primary !default;
 $btn-link-disabled-color:     $black !default;
 // Allows for customizing button radius independently from global border radius
 $btn-border-radius:           1rem !default;
