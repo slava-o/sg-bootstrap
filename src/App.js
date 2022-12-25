@@ -5,10 +5,20 @@ import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 
 class App extends React.Component {
+
+  setTheme = function (theme) {
+    document.documentElement.setAttribute('data-bs-theme', theme)
+  }
+
   render() {
+    this.setTheme("light");
+
     return (
       <div className="App">
         <h1>Привет, {this.props.name}!</h1>
+
+        <Button className={"active"} variant="dark" onClick={this.setTheme.bind(this, "dark")}>Темная тема</Button>{' '}
+        <Button className={"active"} variant="light" onClick={this.setTheme.bind(this, "light")}>Светлая тема</Button>
 
         <Container className={'mt-5'}>
           <Row>

@@ -1,4 +1,20 @@
 @import "variables";
+@import "bootstrap/scss/mixins/color-mode";
+$color-mode-type: data;
+
+
+@include color-mode(dark) {
+  .btn {
+    &-outline-light {
+      color: $text-100-dark;
+
+      &:disabled, &.disabled {
+        color: $text-100-dark;
+      }
+    }
+  }
+}
+
 
 .btn{
   transition: $transition-base;
@@ -9,6 +25,7 @@
 
   &-primary {
     background: $primary-gradient;
+    border-color: transparent;
 
     &:hover {
       opacity: .7;
@@ -62,6 +79,10 @@
 
     &:hover {
       opacity: .7;
+    }
+
+    &:disabled, &.disabled {
+      color: $info;
     }
   }
 

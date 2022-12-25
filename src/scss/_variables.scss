@@ -1,17 +1,49 @@
 // colors
 $primary:    #5C43E3 !default;
-$secondary:  rgba(92, 67, 227, 0.12) !default;
+$primary-bg: rgba($primary, .12);
+$secondary:  $primary-bg !default;
 $danger:     #FF3B30 !default;
 $success:    #34C759 !default;
 $warning:    #FF9500 !default;
+$warning-bg: rgba($warning, .08);
 $info:       #6C86AD !default;
 $light:      #ECF0F9 !default;
 
-$white:    #fff !default;
-$black:    #181A22  !default;
+$white:      #fff    !default;
+$black:      #181A22 !default;
 
-$primary-gradient: linear-gradient(90.11deg, #5C43E3 -1.93%, #751FEB 99.9%), linear-gradient(90.63deg, #8373F6 2.48%, #7E4CCC 98.23%), linear-gradient(90deg, #5C258D 0%, #4389A2 100%);
+$gender-male:   #477EFF !default;
+$gender-female: #FF47F1 !default;
+
+$primary-gradient:         linear-gradient(90.11deg, #5C43E3 -1.93%, #751FEB 99.9%), linear-gradient(90.63deg, #8373F6 2.48%, #7E4CCC 98.23%), linear-gradient(90deg, #5C258D 0%, #4389A2 100%);
 $secondary-gradient-hover: linear-gradient(0deg, #5C43E3, #5C43E3), linear-gradient(0deg, #8373F6, #8373F6), #7357C3;
+
+
+// light theme
+$text-100: #222222;
+$text-200: #273B4A;
+$text-300: $info;
+$bg-600:   #29313F;
+$bg-700:   #F7F9FD;
+$bg-800:   rgba($light, .8);
+$card-900: $white;
+$border:   rgba($info, .16);
+// dark theme
+$text-100-dark: #EFF3F9;
+$text-200-dark: #C5D2E8;
+$text-300-dark: $info;
+$bg-600-dark:   #222836;
+$bg-700-dark:   #06070A;
+$bg-800-dark:   rgba($light, .8);
+$card-900-dark: #141822;
+$border-dark:   $bg-600-dark;
+
+
+// Body
+$body-bg:         $white !default;
+$body-color:      $text-100 !default;
+$body-bg-dark:    $black !default;
+$body-color-dark: $text-100-dark !default;
 
 
 // Options
