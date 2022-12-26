@@ -117,3 +117,18 @@ body {
   }
 }
 
+.form-control {
+  &:hover {
+    border-color: $primary;
+    background: $bg-700;
+  }
+  &:disabled {
+    opacity: .5;
+  }
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+  background-color: rgba($danger, .08);
+  color: $danger;
+}
+

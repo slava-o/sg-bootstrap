@@ -93,6 +93,16 @@ $spacers: (
 );
 
 
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+
+// scss-docs-start input-btn-variables
+$input-btn-focus-width:         0 !default;
+$input-btn-focus-color-opacity: .25 !default;
+$input-btn-focus-color:         transparent !default;
+$input-btn-focus-blur:          0 !default;
+
 // scss-docs-start btn-variables
 $btn-padding-y:               7px !default;
 $btn-padding-x:               .9rem !default;
@@ -116,6 +126,68 @@ $btn-link-disabled-color:     $black !default;
 $btn-border-radius:           1rem !default;
 $btn-border-radius-sm:        .75rem !default;
 $btn-border-radius-lg:        .75rem !default;
+
+// Forms
+
+// scss-docs-start form-text-variables
+$form-text-margin-top:                  .25rem !default;
+$form-text-font-size:                   1rem !default;
+$form-text-font-style:                  null !default;
+$form-text-font-weight:                 null !default;
+$form-text-color:                       $info !default;
+// scss-docs-start form-label-variables
+$form-label-margin-bottom:              .5rem !default;
+$form-label-font-weight:                700 !default;
+$form-label-color:                      $text-200 !default;
+// scss-docs-start form-input-variables
+$input-padding-y:                       .75rem !default;
+$input-padding-x:                       1rem !default;
+$input-font-weight:                     500 !default;
+
+$input-bg:                              $bg-700 !default;
+$input-disabled-color:                  null !default;
+$input-disabled-bg:                     $bg-700 !default;
+$input-disabled-border-color:           $border !default;
+
+$input-color:                           $text-100 !default;
+$input-border-color:                    $border !default;
+$input-box-shadow:                      none !default;
+$input-border-radius:                   1rem !default;
+
+$input-focus-border-color:              $primary !default;
+$input-focus-width:                     $input-btn-focus-width !default;
+$input-focus-box-shadow:                none !default;
+
+$input-placeholder-color:               $text-300 !default;
+
+// scss-docs-start form-feedback-variables
+$form-feedback-valid-color:         $success !default;
+$form-feedback-invalid-color:       $danger !default;
+
+$form-feedback-icon-valid-color:    $form-feedback-valid-color !default;
+$form-feedback-icon-valid:          none !default;
+$form-feedback-icon-invalid-color:  $form-feedback-invalid-color !default;
+$form-feedback-icon-invalid:        none !default;
+// scss-docs-start form-validation-states
+$form-validation-states: (
+  "valid": (
+    "color": $form-feedback-valid-color,
+    "icon": $form-feedback-icon-valid,
+    "tooltip-color": #fff,
+    "tooltip-bg-color": var(--#{$prefix}success),
+    "focus-box-shadow": null,
+    "border-color": var(--#{$prefix}success),
+  ),
+  "invalid": (
+    "color": $form-feedback-invalid-color,
+    "icon": $form-feedback-icon-invalid,
+    "tooltip-color": #fff,
+    "tooltip-bg-color": var(--#{$prefix}danger),
+    "focus-box-shadow": null,
+    "border-color": var(--#{$prefix}danger),
+  )
+) !default;
+
 
 
 // Cards
